@@ -1,0 +1,67 @@
+# Task List - HireHub
+
+- `[x]` **Phase 1: Project Initialization & Authentication**
+  - `[x]` Create project directory structures (`backend/`, `frontend/`)
+  - `[x]` Initialize Spring Boot backend with JPA, Web, Security, MySQL, Validation, Lombok
+  - `[x]` Configure `application.properties` and database connection
+  - `[x]` Create database `hirehub` (handled in URL with `createDatabaseIfNotExist=true`)
+  - `[x]` Implement basic entities: `User`, `Role` (Enum)
+  - `[x]` Implement JWT Security: `JwtService`, `JwtFilter`, `SecurityConfig`, `UserDetailsServiceImpl`
+  - `[x]` Create Auth controllers and services (`register`, `login`, `me`)
+- `[x]` **Phase 2: Candidate Module**
+  - `[x]` Create `CandidateProfile` entity and repository
+  - `[x]` Implement Profile service and controller (Get, Update)
+  - `[x]` Setup file upload system for resumes (PDF) and photos
+- `[x]` **Phase 3: Recruiter Module**
+  - `[x]` Create `RecruiterProfile` entity and repository
+  - `[x]` Implement Profile service and controller (Get, Update, Upload Logo)
+- `[x]` **Phase 4: Job Management Module**
+  - `[x]` Create `Job` entity, status, and category
+  - `[x]` Implement CRUD service & controllers for Recruiter
+- `[x]` **Phase 5: Job Search & Filters**
+  - `[x]` Implement paginated job list with advanced search and filters
+- `[x]` **Phase 6: Applications Module**
+  - `[x]` Create `Application` entity and status enum
+  - `[x]` Implement apply/withdraw for candidates
+  - `[x]` Implement view applicants & status management (Shortlist, Hire, Reject) for recruiters
+- `[x]` **Phase 7: Saved Jobs Module**
+  - `[x]` Create `SavedJob` entity and endpoints
+- `[x]` **Phase 8: Notification Module**
+  - `[x]` Create `Notification` entity and real-time/DB notify logic
+- `[x]` **Phase 9: Admin Module**
+  - `[x]` Implement Admin dashboards, recruiter verification, blocking/unblocking users
+- `[x]` **Phase 10: Frontend Implementation**
+  - `[x]` Initialize React + Vite + Tailwind CSS project
+  - `[x]` Setup Axios, React Router, Hook Form
+  - `[x]` Implement authentication pages (Login, Register)
+  - `[x]` Implement Job Board (Search, Filter, Details)
+  - `[x]` Implement Candidate Dashboard (Profile, Applications, Saved Jobs)
+  - `[x]` Implement Recruiter Dashboard (Manage Jobs, Applicants, Analytics)
+  - `[x]` Implement Admin Dashboard (User Management, Recruiter Verification, Platform Health)
+- `[x]` **Phase 11: UI & Feature Enhancements**
+  - `[x]` Update Home page with Category Browse tiles and Trending jobs
+  - `[x]` Update Jobs board with search auto-complete suggestions and urgency badges
+  - `[x]` Update Candidate Dashboard with Recharts status distributions
+  - `[x]` Update Recruiter Dashboard with printable summary reports
+  - `[x]` Update Admin Dashboard with registration ratio comparisons
+- `[x]` **Phase 12: Premium Out-of-the-Box Features**
+  - `[x]` Implement Live Activity Feed on Home page
+  - `[x]` Implement AI Career Advisor Chatbot on Jobs page
+  - `[x]` Implement Resume Parsing Wizard on Candidate Profile page
+  - `[x]` Complete premium visual spotlights & styling upgrades
+- `[x]` **Phase 13: Masterclass UI Refactor**
+  - `[x]` Overhaul index.css with glow keyframes & shimmer shaders
+  - `[x]` Redesign Navbar.jsx with premium glass styles
+  - `[x]` Redesign Home.jsx into a luxury SaaS terminal landing page
+  - `[x]` Overhaul Login.jsx and Register.jsx into double-panel layout views
+  - `[x]` Upgrade Admin/Recruiter/Candidate dashboards with sliding tab pills and outline gradients
+- `[x]` **Phase 14: Immersive Attention-Grabbing UI**
+  - `[x]` Implement Interactive Neural Connection Canvas on Home page
+  - `[x]` Implement AI Skill Compatibility Matcher on Job Details page
+  - `[x]` Implement simulated AI Cover Letter Generator on Job Details page
+- `[x]` **Phase 15: Global Design Overhaul**
+  - `[x]` Overhaul Jobs.jsx with spotlight cards & mouse coordinates
+  - `[x]` Overhaul JobDetails.jsx with spotlight cards
+  - `[x]` Overhaul Admin Dashboard.jsx with spotlights
+  - `[x]` Overhaul Candidate Dashboard.jsx with spotlights
+  - `[x]` Overhaul Recruiter Dashboard.jsx with spotlights

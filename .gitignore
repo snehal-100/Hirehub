@@ -1,0 +1,29 @@
+# Dependencies
+**/node_modules/
+**/bower_components/
+
+# Build targets
+**/target/
+**/build/
+**/dist/
+**/.gradle/
+
+# IDEs & System Files
+**/.idea/
+**/*.iml
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
+
+# Log files
+**/*.log
+
+# Local files & Uploads
+**/uploads/resumes/*
+**/uploads/photos/*
+!**/uploads/resumes/.gitkeep
+!**/uploads/photos/.gitkeep
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
